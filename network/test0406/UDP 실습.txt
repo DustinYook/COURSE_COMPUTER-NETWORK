@@ -1,0 +1,8 @@
+
+PORT, IP 구조체 담아두는 배열 생성
+char notification[BUF_SIZE];
+
+scanf를 통해 select mode를 입력받음 (int mode 이용)
+select mode 1: listen
+select mode 2: notification
+if(mode == 1): recvfrom 수행

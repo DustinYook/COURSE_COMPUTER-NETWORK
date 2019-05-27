@@ -1,0 +1,15 @@
+thread
+0단계: thread 정의
+1단계: 쓰레드 돌릴 함수 정의 -> handle_clnt
+2단계: 함수인자 정의
+3단계: pthread_create
+4단계: pthread_join 또는 pthread_detach
+
+
+mutex
+0단계: mutex 정의
+1단계: pthread_mutex_init
+2단계: pthread_mutex_lock
+       critical section exec
+       pthread_mutex_unlock
+3단계: pthread_destroy
